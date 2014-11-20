@@ -1,0 +1,3 @@
+gcc -g -Wall -pedantic  -c parse.c
+gcc -g -Wall -pedantic  -c lsh.c
+gcc -g -Wall -pedantic -o lsh parse.o lsh.o -lreadline -ltermcap
